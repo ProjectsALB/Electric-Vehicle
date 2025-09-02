@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1211.0901                               -->
+<workbook original-version='18.1' source-build='2024.3.2 (20243.24.1211.0901)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara' inline='true' name='federated.1jxptzl1g5ytv213jckej09mb4bh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara' name='textscan.1ds6l2t0yo66xb17gg2mk0cnomlx'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/pjesa 2/pjesa 2' filename='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ds6l2t0yo66xb17gg2mk0cnomlx' name='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' table='[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Electric_Vehicle_Type' ordinal='0' />
+            <column datatype='real' name='Average_Range' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric_Vehicle_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric_Vehicle_Type]</local-name>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias>Electric_Vehicle_Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_63485FB434BD4A05B1F1EB3344A4FDBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average_Range</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average_Range]</local-name>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias>Average_Range</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_63485FB434BD4A05B1F1EB3344A4FDBD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Average Range' datatype='real' name='[Average_Range]' role='measure' type='quantitative' />
+      <column caption='Electric Vehicle Type' datatype='string' name='[Electric_Vehicle_Type]' role='dimension' type='nominal' />
+      <column caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' datatype='table' name='[__tableau_internal_object_id__].[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_63485FB434BD4A05B1F1EB3344A4FDBD]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Albania&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' id='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_63485FB434BD4A05B1F1EB3344A4FDBD'>
+            <properties context=''>
+              <relation connection='textscan.1ds6l2t0yo66xb17gg2mk0cnomlx' name='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' table='[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Electric_Vehicle_Type' ordinal='0' />
+                  <column datatype='real' name='Average_Range' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara (2)' inline='true' name='federated.1cj862v08a6vcj1ez3gf303xx1q5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara' name='textscan.10gg1n11duwd2o1bpwpo11qjnugt'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/pjesa 2/pjesa 2' filename='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.10gg1n11duwd2o1bpwpo11qjnugt' name='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' table='[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Electric_Vehicle_Type' ordinal='0' />
+            <column datatype='real' name='Average_Range' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric_Vehicle_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric_Vehicle_Type]</local-name>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias>Electric_Vehicle_Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_DB96CA2EE182468B9751C654EEE6ABCB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average_Range</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average_Range]</local-name>
+            <parent-name>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv]</parent-name>
+            <remote-alias>Average_Range</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_DB96CA2EE182468B9751C654EEE6ABCB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Average Range' datatype='real' name='[Average_Range]' role='measure' type='quantitative' />
+      <column caption='Electric Vehicle Type' datatype='string' name='[Electric_Vehicle_Type]' role='dimension' type='nominal' />
+      <column caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' datatype='table' name='[__tableau_internal_object_id__].[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_DB96CA2EE182468B9751C654EEE6ABCB]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Albania&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' id='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv_DB96CA2EE182468B9751C654EEE6ABCB'>
+            <properties context=''>
+              <relation connection='textscan.10gg1n11duwd2o1bpwpo11qjnugt' name='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara.csv' table='[-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Electric_Vehicle_Type' ordinal='0' />
+                  <column datatype='real' name='Average_Range' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='-- Automjetet me Diapazonin më të Madh' inline='true' name='federated.1lcvt7l17oewk21e423np17nsb19' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='-- Automjetet me Diapazonin më të Madh' name='textscan.0l6wgnu027c3jc1fqmwy40s0cojk'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/pjesa 2/pjesa 2' filename='-- Automjetet me Diapazonin më të Madh.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0l6wgnu027c3jc1fqmwy40s0cojk' name='-- Automjetet me Diapazonin më të Madh.csv' table='[-- Automjetet me Diapazonin më të Madh#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Make' ordinal='0' />
+            <column datatype='string' name='Model' ordinal='1' />
+            <column datatype='integer' name='Electric_Range' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[-- Automjetet me Diapazonin më të Madh.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[-- Automjetet me Diapazonin më të Madh.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[-- Automjetet me Diapazonin më të Madh.csv_277A8E1A556B48D5870AB29984A6005C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[-- Automjetet me Diapazonin më të Madh.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[-- Automjetet me Diapazonin më të Madh.csv_277A8E1A556B48D5870AB29984A6005C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric_Range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Electric_Range]</local-name>
+            <parent-name>[-- Automjetet me Diapazonin më të Madh.csv]</parent-name>
+            <remote-alias>Electric_Range</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[-- Automjetet me Diapazonin më të Madh.csv_277A8E1A556B48D5870AB29984A6005C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Electric Range' datatype='integer' name='[Electric_Range]' role='measure' type='quantitative' />
+      <column caption='-- Automjetet me Diapazonin më të Madh.csv' datatype='table' name='[__tableau_internal_object_id__].[-- Automjetet me Diapazonin më të Madh.csv_277A8E1A556B48D5870AB29984A6005C]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Albania&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='-- Automjetet me Diapazonin më të Madh.csv' id='-- Automjetet me Diapazonin më të Madh.csv_277A8E1A556B48D5870AB29984A6005C'>
+            <properties context=''>
+              <relation connection='textscan.0l6wgnu027c3jc1fqmwy40s0cojk' name='-- Automjetet me Diapazonin më të Madh.csv' table='[-- Automjetet me Diapazonin më të Madh#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Make' ordinal='0' />
+                  <column datatype='string' name='Model' ordinal='1' />
+                  <column datatype='integer' name='Electric_Range' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20250108T141441' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20250108T141441' name='Clipboard_20250108T141441leaf'>
+            <connection class='textscan' directory='C:/Users/User/Documents/My Tableau Repository/Datasources' filename='Clipboard_20250108T141441.txt' />
+          </named-connection>
+        </named-connections>
+        <relation connection='Clipboard_20250108T141441leaf' name='Clipboard_20250108T141441#txt' table='[Clipboard_20250108T141441#txt]' type='table' />
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Clipboard_20250108T141441' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20250108T141441]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Albania&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Clipboard_20250108T141441' id='Clipboard_20250108T141441'>
+            <properties context=''>
+              <relation connection='Clipboard_20250108T141441leaf' name='Clipboard_20250108T141441#txt' table='[Clipboard_20250108T141441#txt]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> Analiza e Distrikteve Legjislative dhe Zonave të Populluara</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='-- Analiza e Distrikteve Legjislative dhe Zonave të Populluara' name='federated.1jxptzl1g5ytv213jckej09mb4bh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jxptzl1g5ytv213jckej09mb4bh'>
+            <column caption='Average Range' datatype='real' name='[Average_Range]' role='measure' type='quantitative' />
+            <column caption='Electric Vehicle Type' datatype='string' name='[Electric_Vehicle_Type]' role='dimension' type='nominal' />
+            <column-instance column='[Electric_Vehicle_Type]' derivation='None' name='[none:Electric_Vehicle_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average_Range]' derivation='Sum' name='[sum:Average_Range:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1jxptzl1g5ytv213jckej09mb4bh].[sum:Average_Range:qk]</rows>
+        <cols>([federated.1jxptzl1g5ytv213jckej09mb4bh].[none:Electric_Vehicle_Type:nk] / [federated.1jxptzl1g5ytv213jckej09mb4bh].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{BF0E6FC8-444C-4213-B698-701F1ED39AA6}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> Automjetet me Diapazonin më të Madh</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='-- Automjetet me Diapazonin më të Madh' name='federated.1lcvt7l17oewk21e423np17nsb19' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lcvt7l17oewk21e423np17nsb19'>
+            <column caption='Electric Range' datatype='integer' name='[Electric_Range]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Electric_Range]' derivation='Sum' name='[sum:Electric_Range:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1lcvt7l17oewk21e423np17nsb19].[sum:Electric_Range:qk]</rows>
+        <cols>([federated.1lcvt7l17oewk21e423np17nsb19].[none:Make:nk] / [federated.1lcvt7l17oewk21e423np17nsb19].[none:Model:nk])</cols>
+      </table>
+      <simple-id uuid='{3447690C-DB3D-4C5F-A66B-D3BB81A3CF2D}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='Clipboard_20250108T141441' />
+          </datasources>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4F3813BE-E7D0-42BA-9DD6-EB38FA240BCC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jxptzl1g5ytv213jckej09mb4bh].[:Measure Names]</field>
+            <field>[federated.1jxptzl1g5ytv213jckej09mb4bh].[none:Electric_Vehicle_Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{93B11B6E-7A66-4275-8F26-C9F64C5F28FD}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lcvt7l17oewk21e423np17nsb19].[none:Make:nk]</field>
+            <field>[federated.1lcvt7l17oewk21e423np17nsb19].[none:Model:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8D41B3D1-F443-48DB-85D8-B9C334C9739E}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C609E653-9B1D-4FE9-9FFF-45D6C35CE5B7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='176'>
+      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
+      QL0XwEJ5pScAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='190'>
+      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
+      quWrAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
