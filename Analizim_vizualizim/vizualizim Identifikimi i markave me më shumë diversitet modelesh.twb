@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Identifikimi i markave me më shumë diversitet modelesh' inline='true' name='federated.1x5ghna1hoo8az1dspcfj02xdx01' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Identifikimi i markave me më shumë diversitet modelesh' name='textscan.0f3q9xb0o7u6ok13zjy650g6nefu'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/vizualizimi/diversiteti i markave' filename='Identifikimi i markave me më shumë diversitet modelesh.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0f3q9xb0o7u6ok13zjy650g6nefu' name='Identifikimi i markave me më shumë diversitet modelesh.csv' table='[Identifikimi i markave me më shumë diversitet modelesh#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='F2' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Identifikimi i markave me më shumë diversitet modelesh.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Identifikimi i markave me më shumë diversitet modelesh.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Identifikimi i markave me më shumë diversitet modelesh.csv_B81C7CE149CB4343A495E5EDD04A88F9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Identifikimi i markave me më shumë diversitet modelesh.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Identifikimi i markave me më shumë diversitet modelesh.csv_B81C7CE149CB4343A495E5EDD04A88F9]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Identifikimi i markave me më shumë diversitet modelesh.csv' datatype='table' name='[__tableau_internal_object_id__].[Identifikimi i markave me më shumë diversitet modelesh.csv_B81C7CE149CB4343A495E5EDD04A88F9]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Identifikimi i markave me më shumë diversitet modelesh.csv' id='Identifikimi i markave me më shumë diversitet modelesh.csv_B81C7CE149CB4343A495E5EDD04A88F9'>
+            <properties context=''>
+              <relation connection='textscan.0f3q9xb0o7u6ok13zjy650g6nefu' name='Identifikimi i markave me më shumë diversitet modelesh.csv' table='[Identifikimi i markave me më shumë diversitet modelesh#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Marka me me shume diversitet modelesh eshte BMV me plot 10 modele te nxjerra ne treg dhe te perdorshme nga popullata,ndersa Toyota eshte marka me me pak modele ne treg e cila numeron vetem 4 te tilla.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Identifikimi i markave me më shumë diversitet modelesh' name='federated.1x5ghna1hoo8az1dspcfj02xdx01' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x5ghna1hoo8az1dspcfj02xdx01'>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[F2]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F2]' derivation='Sum' name='[sum:F2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1x5ghna1hoo8az1dspcfj02xdx01].[sum:F2:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1x5ghna1hoo8az1dspcfj02xdx01].[sum:F2:qk]</rows>
+        <cols>[federated.1x5ghna1hoo8az1dspcfj02xdx01].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{F5CE4D61-76BB-41DA-A0BA-979C3FE98C7E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1x5ghna1hoo8az1dspcfj02xdx01].[sum:F2:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1x5ghna1hoo8az1dspcfj02xdx01].[none:F1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{375C2FFD-1499-4E3D-B44D-C563AA5F8507}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      7nUAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

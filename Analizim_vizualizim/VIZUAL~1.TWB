@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore' inline='true' name='federated.03qpvya0ltc28o16e410p1mph5li' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore' name='textscan.1ph10rx1gk7jwe1gsfelx02o5uf4'>
+            <connection class='textscan' directory='C:/Users/User/Desktop/per grafik' filename='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ph10rx1gk7jwe1gsfelx02o5uf4' name='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv' table='[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='year' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+      <column caption='city' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <column caption='fueltype' datatype='string' name='[F3]' role='dimension' type='nominal' />
+      <column caption='vehiclecount' datatype='integer' name='[F4]' role='measure' type='quantitative' />
+      <column caption='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv' datatype='table' name='[__tableau_internal_object_id__].[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv' id='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv_36409986AE004E8B9947E5B2B0202BD6'>
+            <properties context=''>
+              <relation connection='textscan.1ph10rx1gk7jwe1gsfelx02o5uf4' name='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore.csv' table='[Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='integer' name='F4' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Shpërndarja e automjeteve shenon pikun me te larte ne vitin 2023 ne te gjitha qytetet dhe shohim qe kemi nje renie drastike te nr te makinave ne 2024 ne cdo qytet ku renien me te madhe e ka Kirkland nga 66(2023) ne vetem 30(2024) ndersa renien me te ulet nga 2023 ne 2024 e ka Bellevue nga 55 ne (2023) ne 47 (2024).
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Shpërndarja e automjeteve sipas vitit dhe llojit të karburantit në qytetet kryesore' name='federated.03qpvya0ltc28o16e410p1mph5li' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03qpvya0ltc28o16e410p1mph5li'>
+            <column aggregation='Sum' caption='year' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+            <column caption='city' datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column caption='vehiclecount' datatype='integer' name='[F4]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F4]' derivation='Sum' name='[sum:F4:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.03qpvya0ltc28o16e410p1mph5li].[sum:F4:qk]' />
+              <text column='[federated.03qpvya0ltc28o16e410p1mph5li].[sum:F4:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03qpvya0ltc28o16e410p1mph5li].[sum:F4:qk]</rows>
+        <cols>([federated.03qpvya0ltc28o16e410p1mph5li].[none:F1:ok] / [federated.03qpvya0ltc28o16e410p1mph5li].[none:F2:nk])</cols>
+      </table>
+      <simple-id uuid='{5F190944-D497-415B-A1B9-323A962376BB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.03qpvya0ltc28o16e410p1mph5li].[sum:F4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03qpvya0ltc28o16e410p1mph5li].[none:F1:ok]</field>
+            <field>[federated.03qpvya0ltc28o16e410p1mph5li].[none:F2:nk]</field>
+            <field>[federated.03qpvya0ltc28o16e410p1mph5li].[none:F3:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{57A06625-70A6-4DE5-AE89-6011EBD663D6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      C0Se2RAAyKkAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
